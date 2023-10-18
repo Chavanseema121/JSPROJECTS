@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.countdown-container {
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#countdown {
+    font-size: 72px;
+    animation: countdown-animation 5s steps(5, end) forwards;
+}
+
+@keyframes countdown-animation {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(0);
+    }
+}
+
+#message {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+#replayBtn {
+    margin-top: 20px;
+}

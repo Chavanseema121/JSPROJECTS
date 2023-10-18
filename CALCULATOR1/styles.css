@@ -1,0 +1,36 @@
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    margin: 5px;
+    background-color: #f2f2f2;
+}
+
+.digit {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.operation {
+    background-color: #008CBA;
+    color: white;
+}
+.btn-equals{
+
+    
+}
+

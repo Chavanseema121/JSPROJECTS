@@ -36,14 +36,16 @@ body{
     margin-right: 8px;
 }
 .sub-menu-1{
-    display:none;
+   display: none;
+   position: absolute;
+   background: lightseagreen;
+   margin-top: 15px;
+   margin-left: -15px;
+
+    
 }
 .menu-bar ul li:hover .sub-menu-1{
     display: block;
-    position: absolute;
-    background: lightseagreen;
-    margin-top: 15px;
-    margin-left: -15px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul{
     display: block;
